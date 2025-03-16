@@ -8,3 +8,14 @@
     #180b1f
   );
 }
+
+#headerSurah {
+  background-image: linear-gradient(
+    to left top,
+    #000330,
+    #1f184c,
+    #442567,
+    #6c3280,
+    #973e96
+  );
+}

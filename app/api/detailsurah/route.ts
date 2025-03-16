@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
     const baseUrl = "http://equran.id/api/v2/surat/";
     const { data } = await axios.get(`${baseUrl}${nomor}`);
 
-    return NextResponse.json({ data }, { status: 200 });
+    return NextResponse.json({ data: data.data }, { status: 200 });
   } catch (error) {
     console.error("Error fetching data:", error);
   }
