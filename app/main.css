@@ -1,0 +1,10 @@
+#container {
+  background-image: linear-gradient(
+    to left bottom,
+    #973e96,
+    #713378,
+    #4f275a,
+    #311a3c,
+    #180b1f
+  );
+}
